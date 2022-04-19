@@ -1,0 +1,35 @@
+body{
+background-color: aqua;
+}
+h1{
+    text-align: center;
+    border-style: solid;
+    background-color: hotpink;
+    
+}
+table{
+
+    border-style: ridge;
+    border-color: gold;
+    text-align: center;
+    border-spacing: 2px;
+}
+tbody{
+    border-style: ridge;
+    border-color: gold;
+    text-align: center;
+    border-spacing: 2px;
+
+}
+th{
+    border-style: ridge;
+    border-color: gold;
+    text-align: center;
+    border-spacing: 2px;
+}
+td{
+    border-style: ridge;
+    border-color: gold;
+    text-align: center;
+    border-spacing: 2px;
+}

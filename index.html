@@ -10,7 +10,8 @@
     <title>Salary Calculator</title>
 </head>
 <body>
-    <h1>Add Employee</h1>
+    <h1>Salary Calculator</h1>
+    <h3>Add Employee</h3>
     <div id="input">
         <input type="text" placeholder="First Name" id="firstNameIn">
         <input type="text" placeholder="Last Name" id="lastNameIn">
@@ -20,10 +21,28 @@
         <button id="addEmployeeButton">Submit</button>
     </div>
     <div id="output">
-            <ul id="employeeOut">
-            <li><button class="removeEmployeeButton">Fire</button></li>
+        <table>
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Salary</th>
+              </tr>
+            </thead>
+            <tbody id="employeeOut">
+              <tr></tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                  <th>Total Employee Salary: $<span id="employeeSalaryOut">0.00</span></th>
+                </tr>
+              </tfoot>
+            </table>
+            <!-- <ul id="employeeOut">
             </ul>
-        <h2>Total Employee Salary: $<span id="employeeSalaryOut">0.00</span></h2>
+        <h2>Total Employee Salary: $<span id="employeeSalaryOut">0.00</span></h2> -->
     </div>
     
     
